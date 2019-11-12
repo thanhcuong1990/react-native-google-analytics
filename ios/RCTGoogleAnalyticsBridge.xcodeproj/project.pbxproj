@@ -7,11 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A708FC1A1F6BA89900211FC3 /* GoogleAnalyticsPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = A708FC191F6BA89900211FC3 /* GoogleAnalyticsPayload.m */; };
-		A708FC201F6BB4D200211FC3 /* RCTGoogleAnalyticsSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A708FC1F1F6BB4D200211FC3 /* RCTGoogleAnalyticsSettings.m */; };
-		A710AAE31CC640E40085DAC1 /* RCTGoogleTagManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A710AAE21CC640E40085DAC1 /* RCTGoogleTagManagerBridge.m */; };
-		A79185CA1C30694E001236A6 /* RCTGoogleAnalyticsBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A79185C91C30694E001236A6 /* RCTGoogleAnalyticsBridge.h */; };
-		A79185CC1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A79185CB1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m */; };
+		8C3C4903237A9FB700AC52AA /* RCTGoogleAnalyticsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C48F4237A9FB700AC52AA /* RCTGoogleAnalyticsBridge.m */; };
+		8C3C4904237A9FB700AC52AA /* GoogleAnalyticsPayload.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C48F6237A9FB700AC52AA /* GoogleAnalyticsPayload.m */; };
+		8C3C4905237A9FB700AC52AA /* RCTGoogleTagManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C48F8237A9FB700AC52AA /* RCTGoogleTagManagerBridge.m */; };
+		8C3C4906237A9FB700AC52AA /* RCTGoogleAnalyticsSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C48FB237A9FB700AC52AA /* RCTGoogleAnalyticsSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,22 +20,21 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				A79185CA1C30694E001236A6 /* RCTGoogleAnalyticsBridge.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A708FC181F6BA86C00211FC3 /* GoogleAnalyticsPayload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAnalyticsPayload.h; sourceTree = "<group>"; };
-		A708FC191F6BA89900211FC3 /* GoogleAnalyticsPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsPayload.m; sourceTree = "<group>"; };
-		A708FC1E1F6BB4D200211FC3 /* RCTGoogleAnalyticsSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGoogleAnalyticsSettings.h; sourceTree = "<group>"; };
-		A708FC1F1F6BB4D200211FC3 /* RCTGoogleAnalyticsSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleAnalyticsSettings.m; sourceTree = "<group>"; };
-		A710AAE11CC640E40085DAC1 /* RCTGoogleTagManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGoogleTagManagerBridge.h; sourceTree = "<group>"; };
-		A710AAE21CC640E40085DAC1 /* RCTGoogleTagManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleTagManagerBridge.m; sourceTree = "<group>"; };
+		8C3C48F4237A9FB700AC52AA /* RCTGoogleAnalyticsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleAnalyticsBridge.m; sourceTree = "<group>"; };
+		8C3C48F5237A9FB700AC52AA /* RCTGoogleTagManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGoogleTagManagerBridge.h; sourceTree = "<group>"; };
+		8C3C48F6237A9FB700AC52AA /* GoogleAnalyticsPayload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsPayload.m; sourceTree = "<group>"; };
+		8C3C48F7237A9FB700AC52AA /* RCTGoogleAnalyticsSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGoogleAnalyticsSettings.h; sourceTree = "<group>"; };
+		8C3C48F8237A9FB700AC52AA /* RCTGoogleTagManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleTagManagerBridge.m; sourceTree = "<group>"; };
+		8C3C48F9237A9FB700AC52AA /* RCTGoogleAnalyticsBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGoogleAnalyticsBridge.h; sourceTree = "<group>"; };
+		8C3C48FA237A9FB700AC52AA /* GoogleAnalyticsPayload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAnalyticsPayload.h; sourceTree = "<group>"; };
+		8C3C48FB237A9FB700AC52AA /* RCTGoogleAnalyticsSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleAnalyticsSettings.m; sourceTree = "<group>"; };
 		A79185C61C30694E001236A6 /* libRCTGoogleAnalyticsBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTGoogleAnalyticsBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A79185C91C30694E001236A6 /* RCTGoogleAnalyticsBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTGoogleAnalyticsBridge.h; sourceTree = "<group>"; };
-		A79185CB1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleAnalyticsBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +48,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C3C48F3237A9FB700AC52AA /* RCTGoogleAnalyticsBridge */ = {
+			isa = PBXGroup;
+			children = (
+				8C3C48F4237A9FB700AC52AA /* RCTGoogleAnalyticsBridge.m */,
+				8C3C48F5237A9FB700AC52AA /* RCTGoogleTagManagerBridge.h */,
+				8C3C48F6237A9FB700AC52AA /* GoogleAnalyticsPayload.m */,
+				8C3C48F7237A9FB700AC52AA /* RCTGoogleAnalyticsSettings.h */,
+				8C3C48F8237A9FB700AC52AA /* RCTGoogleTagManagerBridge.m */,
+				8C3C48F9237A9FB700AC52AA /* RCTGoogleAnalyticsBridge.h */,
+				8C3C48FA237A9FB700AC52AA /* GoogleAnalyticsPayload.h */,
+				8C3C48FB237A9FB700AC52AA /* RCTGoogleAnalyticsSettings.m */,
+			);
+			path = RCTGoogleAnalyticsBridge;
+			sourceTree = "<group>";
+		};
 		A79185BD1C30694E001236A6 = {
 			isa = PBXGroup;
 			children = (
-				A79185C81C30694E001236A6 /* RCTGoogleAnalyticsBridge */,
+				8C3C48F3237A9FB700AC52AA /* RCTGoogleAnalyticsBridge */,
 				A79185C71C30694E001236A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,21 +77,6 @@
 				A79185C61C30694E001236A6 /* libRCTGoogleAnalyticsBridge.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A79185C81C30694E001236A6 /* RCTGoogleAnalyticsBridge */ = {
-			isa = PBXGroup;
-			children = (
-				A708FC1E1F6BB4D200211FC3 /* RCTGoogleAnalyticsSettings.h */,
-				A708FC1F1F6BB4D200211FC3 /* RCTGoogleAnalyticsSettings.m */,
-				A710AAE11CC640E40085DAC1 /* RCTGoogleTagManagerBridge.h */,
-				A710AAE21CC640E40085DAC1 /* RCTGoogleTagManagerBridge.m */,
-				A79185C91C30694E001236A6 /* RCTGoogleAnalyticsBridge.h */,
-				A79185CB1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m */,
-				A708FC181F6BA86C00211FC3 /* GoogleAnalyticsPayload.h */,
-				A708FC191F6BA89900211FC3 /* GoogleAnalyticsPayload.m */,
-			);
-			path = RCTGoogleAnalyticsBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,10 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A710AAE31CC640E40085DAC1 /* RCTGoogleTagManagerBridge.m in Sources */,
-				A708FC1A1F6BA89900211FC3 /* GoogleAnalyticsPayload.m in Sources */,
-				A708FC201F6BB4D200211FC3 /* RCTGoogleAnalyticsSettings.m in Sources */,
-				A79185CC1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m in Sources */,
+				8C3C4904237A9FB700AC52AA /* GoogleAnalyticsPayload.m in Sources */,
+				8C3C4905237A9FB700AC52AA /* RCTGoogleTagManagerBridge.m in Sources */,
+				8C3C4903237A9FB700AC52AA /* RCTGoogleAnalyticsBridge.m in Sources */,
+				8C3C4906237A9FB700AC52AA /* RCTGoogleAnalyticsSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
