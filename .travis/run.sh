@@ -5,7 +5,7 @@ yarn install
 yarn run tsc
 cd examples/rn57example
 yarn install
-rm -rf node_modules/react-native-google-analytics-bridge/examples
+rm -rf node_modules/rn-google-analytics/examples
 
 if [ "$LANE" = "node" ]; then
     yarn run tsc

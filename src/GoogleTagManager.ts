@@ -7,7 +7,7 @@ import FunctionCallTagHandler from "./Helpers/FunctionCallTagHandler";
  *
  * @name GoogleTagManager
  * @example
- * import { GoogleTagManager } from "react-native-google-analytics-bridge";
+ * import { GoogleTagManager } from "rn-google-analytics";
  * GoogleTagManager.openContainerWithId("GT-NZT48")
  *   .then(() => GoogleTagManager.stringForKey("pack"))
  *   .then(str => console.log("Pack: ", str));

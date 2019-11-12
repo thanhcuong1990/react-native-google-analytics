@@ -13,7 +13,7 @@ if (
   !GoogleAnalyticsSettings
 ) {
   console.error(
-    "Something went wrong initializing the native react-native-google-analytics-bridge module.\nPlease check your configuration.\nDid you forget to run 'react-native link' or install your node_modules?"
+    "Something went wrong initializing the native rn-google-analytics module.\nPlease check your configuration.\nDid you forget to run 'react-native link' or install your node_modules?"
   );
 }
 

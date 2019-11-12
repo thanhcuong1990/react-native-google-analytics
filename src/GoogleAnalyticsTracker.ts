@@ -26,7 +26,7 @@ function isValidCustomDimension(customDimensionVal) {
  * @name GoogleAnalyticsTracker
  * @example
  * // Constructing a tracker is simple:
- * import { GoogleAnalyticsTracker } from "react-native-google-analytics-bridge";
+ * import { GoogleAnalyticsTracker } from "rn-google-analytics";
  * const tracker = new GoogleAnalyticsTracker("UA-12345-1");
  * tracker.trackScreenView("Home");
  *

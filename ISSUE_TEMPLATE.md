@@ -11,7 +11,7 @@
   Are you using Expo/create-react-native-app? This library does not work with Expo.
   Are you getting this error while running tests? You have to mock the library.
 
-  * Build errors on Android, see: https://github.com/thanhcuong1990/react-native-google-analytics-bridge/wiki/Android-build-problems
+  * Build errors on Android, see: https://github.com/thanhcuong1990/rn-google-analytics/wiki/Android-build-problems
 
   Finally, please search through issues before creating new ones.
 -->
