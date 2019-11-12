@@ -1,6 +1,8 @@
 require "json"
 
 package = JSON.parse(File.read(File.join(__dir__, "package.json")))
+ios_root = 'ios'
+galib_root = ios_root+'/google-analytics-lib'
 
 Pod::Spec.new do |s|
   s.name         = "RNGoogleAnalytics"
@@ -13,13 +15,26 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/thanhcuong1990/react-native-google-analytics", :tag => "v#{s.version}" }
-  s.source_files = "ios/**/*.{h,m}"
-  s.frameworks   = 'CoreData', 'SystemConfiguration'
-  s.libraries    = 'z', 'sqlite3.0','GoogleAnalyticsServices'
-  s.requires_arc = true
+  s.default_subspec = 'Core'
 
-  s.dependency 'React'
-  s.dependency "GoogleAnalytics"
-  s.dependency 'GoogleTagManager'
+  s.subspec 'Core' do |ss|
+    ss.dependency 'React'
+    ss.frameworks = 'CoreData', 'SystemConfiguration'
+    ss.libraries = 'z', 'sqlite3.0','GoogleAnalyticsServices'
+
+    ss.vendored_libraries =
+      galib_root+'/libGoogleAnalyticsServices.a'
+
+    ss.source_files  =
+      galib_root+'/*.{h}',
+      ios_root+'/**/*.{h,m}'
+  end
+
+  s.subspec 'adSupport' do |ss|
+    ss.dependency       'rn-google-analytics/Core'
+    ss.frameworks = 'AdSupport'
+    ss.libraries = 'AdIdAccess'
+    ss.vendored_libraries =
+      galib_root+'/libAdIdAccess.a'
+  end
 end
