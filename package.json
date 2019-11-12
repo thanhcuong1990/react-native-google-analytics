@@ -1,6 +1,6 @@
 {
   "name": "rn-google-analytics",
-  "version": "7.1.0",
+  "version": "1.0.0",
   "description": "React Native for using native Google Analytics libraries",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -45,5 +45,6 @@
     "husky": "^3.0.9",
     "prettier": "^1.6.1",
     "typescript": "^3.7.2"
-  }
+  },
+  "dependencies": {}
 }
