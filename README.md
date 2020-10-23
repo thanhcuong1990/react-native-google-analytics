@@ -794,8 +794,10 @@ tracker.trackScreenView("SaleScreen", payload);
 
 ### CustomDimensionsFieldIndexMap
 
--   **See: CustomDimensionsFieldIndexMap**
--   **See: CustomDimensionsByField**
+-   **See: CustomDimensionsFieldIndexMap
+    **
+-   **See: CustomDimensionsByField
+    **
 
 A dictionary describing mapping of field names to indices for custom dimensions.
 This is an optional object used by the tracker.
@@ -815,8 +817,10 @@ tracker.trackScreenView("Home", { customDimensions: { 1: "Premium" } });
 
 ### CustomDimensionsByIndex
 
--   **See: CustomDimensionsFieldIndexMap**
--   **See: CustomDimensionsByField**
+-   **See: CustomDimensionsFieldIndexMap
+    **
+-   **See: CustomDimensionsByField
+    **
 
 A dictionary with custom dimensions values and their index keys.
 
@@ -829,8 +833,10 @@ tracker.trackScreenView("Home", { customDimensions });
 
 ### CustomDimensionsByField
 
--   **See: CustomDimensionsFieldIndexMap**
--   **See: CustomDimensionsByIndex**
+-   **See: CustomDimensionsFieldIndexMap
+    **
+-   **See: CustomDimensionsByIndex
+    **
 
 A dictionary with custom dimensions values and their (mapped) field name keys.
 In order to use this and send in custom dimensions by field name, you must have
