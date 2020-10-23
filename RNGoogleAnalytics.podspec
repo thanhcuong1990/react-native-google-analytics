@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
 
   s.license      = package['license']
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '10.0'
 
   s.source       = { git: 'https://github.com/thanhcuong1990/react-native-google-analytics', tag: "v#{s.version}" }
   s.default_subspec = 'Core'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'adSupport' do |ss|
-    ss.dependency       'rn-google-analytics/Core'
+    ss.dependency 'rn-google-analytics/Core'
     ss.frameworks = 'AdSupport'
     ss.libraries = 'AdIdAccess'
     ss.vendored_libraries = galib_root + '/libAdIdAccess.a'

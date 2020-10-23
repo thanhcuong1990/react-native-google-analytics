@@ -1,6 +1,6 @@
 package com.cuonglt.GoogleAnalyticsBridge;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -18,6 +18,7 @@ import com.google.android.gms.analytics.ecommerce.ProductAction;
 
 import java.util.HashMap;
 import java.util.Map;
+import javax.annotation.Nullable;
 
 public class GoogleAnalyticsBridge extends ReactContextBaseJavaModule {
 
